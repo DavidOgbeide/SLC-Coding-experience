@@ -1,4 +1,4 @@
-# SLC-Coding-experience
+# SLC-Coding-experience; Querrying my first database built from scratch
 select 	 enrollments.persons_id as student_id,
          concat(persons.first_name, ' ' , persons.last_name) as student_name,
          enrollments.sections_subjects_id as subject_code,
